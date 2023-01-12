@@ -8,15 +8,19 @@ public class Main {
         p.product(5,10,15);
         p.product(10,5);
     }
-}
-class Product{
-    public int product(int x, int y) {
-        return x+y;
-    }
-    public int product(int x, int y, int z) {
-        return x+y+z;
-    }
-    public double product(double x, double y) {
-        return x+y;
+
+  static  class   Product{
+        public int product(int x, int y) {
+            System.out.println("Method 1");
+            return x+y;
+        }
+        public int product(int x, int y, int z) {
+            System.out.println("Method 2");
+            return x+y+z;
+        }
+        public double product(double x, double y) {
+            System.out.println("Method 3");
+            return x+y;
+        }
     }
 }
