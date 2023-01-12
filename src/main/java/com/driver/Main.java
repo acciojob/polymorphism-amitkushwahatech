@@ -6,7 +6,7 @@ public class Main {
         Product p=new Product();
         p.product(5,10);
         p.product(5,10,15);
-        p.product(10,5);
+        p.product(10.21,5);
     }
 
   public static  class   Product{
