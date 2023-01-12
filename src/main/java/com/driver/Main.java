@@ -9,7 +9,7 @@ public class Main {
         p.product(10,5);
     }
 
-  static  class   Product{
+  public static  class   Product{
         public int product(int x, int y) {
             System.out.println("Method 1");
             return x+y;
