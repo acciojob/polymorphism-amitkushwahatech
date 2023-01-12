@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Product p = new Product();
-        System.out.print(p.product(4,5)+" "+p.product(3,5,6)+" "+p.product(2.3,4.6));
+        System.out.println(p.product(4,5)+" "+p.product(3,5,6)+" "+p.product(2.3,4.6));
     }
     public static class Product{
         public  static int product(int x, int y) {
