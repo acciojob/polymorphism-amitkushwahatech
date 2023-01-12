@@ -8,13 +8,13 @@ public class Main {
         System.out.print(p.product(4,5)+" "+p.product(3,5,6)+" "+p.product(2.3,4.6));
     }
     public static class Product{
-        public int product(int x, int y) {
+        public  static int product(int x, int y) {
             return x+y;
         }
-        public int product(int x, int y, int z) {
+        public  static int product(int x, int y, int z) {
             return x+y+z;
         }
-        public double product(double x, double y) {
+        public  static double product(double x, double y) {
             return  x+y;
         }
     }
